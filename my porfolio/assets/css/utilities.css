@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+:root {
+    --black-900: #878e99;
+    --black-800: #32363b;
+    --black-700: #c4cfde;
+    --black-600: #15171b;
+    --body: #212428;
+    --red-900: #ff014f;
+    --shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --main-font: 'Montserrat';
+    --Poppins: 'Poppins';
+
+}
+
+ol,ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+  /* header */
+.w-20{
+    width: 20%;
+}
+
+.w-80{
+    width: 80%;
+}
+/* line */
+.line{
+    width: 100%;
+    border-bottom: 1px solid var(--black-900);
+    margin: 40px 0 0 0;
+}
+  /* tpo box */
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: var(--black-600);
+    box-shadow: var(--shadow);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color:var(--red-900);
+    bottom: 30px;
+    left: 30px;
+    right: auto;
+}
+.devider{
+    width: 100%;
+    border: 1px solid var(--black-600);
+}
+.title{
+    text-align: center;
+    padding: 70px 50px;
+}
+.title h4{
+    font-size: 16px;
+    color: var(--red-900);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.title h2{
+    font-size: 60px;
+    color: var(--black-900);
+    letter-spacing: 1px;
+}
+
+/* featurs */
+.w-33{
+    width: 33%;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-50{
+    width: 50%;
+    padding: 12px;
+}
+
+/* client */
+.padding{
+    padding: 70px 0;
+}
+
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
+
+/* pricing */
+
+.w-40{
+    width: 40%;
+    padding: 12px;
+}
+.w-60{
+    width: 60%;
+    padding: 12px;
+}
